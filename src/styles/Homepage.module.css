@@ -1,0 +1,11 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    font: bold;
+    font-size: 5vw;
+    color: black;
+}
