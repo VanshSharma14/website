@@ -9,3 +9,26 @@
     font-size: 5vw;
     color: black;
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollContainer {
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.svg {
+    position: relative;
+    top: 1rem;
+    filter: invert(100%);
+    opacity: 1;
+    animation: bouncing 1.5s ease-in-out infinite;
+    animation-delay: 3s;
+    color: rgb(255, 255, 255);
+    background-color: white;
+}
